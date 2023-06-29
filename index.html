@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/add-to-calendar-button@2" async defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,600;0,800;0,900;1,600&display=swap" rel="stylesheet">
+    <style type="text/css">
+        html {
+            font-size: 100%;
+        }
+        body {
+            font-family: 'Poppins', sans-serif;
+            font-size: 1rem;
+            background-color: #fff;
+            color: #141414;
+        }
+        main {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+        .card {
+            max-width: 40ch;
+            padding: 1rem;
+            text-align: left;
+        }
+        h2 {
+            font-size: 2rem;
+            line-height: 2.5rem;
+            font-weight: 900;
+        }
+        p {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1rem;
+            line-height: 1.5rem;
+        }
+    </style>
+</head>
+<body>
+
+    <main>  
+        <div class="card">
+            <h2>Join me for a magical cocktail party  as I celebrate my 45th birthday! </h2>
+            <p>Let's <strong>dress up</strong>, raise our glasses, and make memories at <strong>23 Welgelee Road Constantia on 23 September 2023 at 15:30</strong>.</p><p>The bus leaves at 16:00 so please don't be late! <strong>Let me know by 15 July if you can make it</strong>. Your presence is the best gift.</p><p>Cheers!</p>
+            <add-to-calendar-button
+  name="Ryan's 45th Birthday Party"
+  startDate="2023-09-30"
+  startTime="15:30"
+  endTime="22:30"
+  timeZone="Africa/Johannesburg"
+  location="23 Welgelee Road, Fir Grove, Cape Town"
+  description="Let's dress up, raise our glasses, and make memories at 23 Welgelee Road Constantia on 23 September 2023 at 15:30.[br][br]The bus leaves at 16:00 so please don't be late! Let me know by 15 July if you can make it. Your presence is the best gift[br][br]Cheers!"
+  options="'Apple','Google','iCal','Outlook.com','Microsoft 365','Microsoft Teams','Yahoo'"
+  lightMode="dark"
+  buttonStyle="neumorphism"
+></add-to-calendar-button>
+        </div>
+        
+    </main>
+    
+</body>
+</html>
